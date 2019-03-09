@@ -1,0 +1,41 @@
+.background {
+  background: url(./pumpkin.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.jumbotron {
+  background: rgba(150,150,150,0.5);
+  color: black;
+  }
+
+  .whitetxt {
+    color: white;
+  }
+
+  .container-flex {
+    display: flex;
+    margin-top: 10vh;
+  }
+
+.transparent-bg-black {
+  box-shadow: 10px 5px 5px grey;
+  border-radius: 25px;
+  background-color: rgba(200,200,200,0.5);
+}
+
+.mt-vh-25 {
+  margin-top: 25vh;
+}
+
+#move:hover {
+  animation-name: move;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move {
+  100% {
+    background-color: yellow;
+  }
+}
